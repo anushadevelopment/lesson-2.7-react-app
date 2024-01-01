@@ -1,0 +1,45 @@
+.userBarContainer {
+    margin: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #d0bfff;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 630px;
+  }
+  
+  .userBarForm {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .userBarContainer label {
+    font-weight: 700;
+    color: #5f3dc4;
+  }
+  
+  .userBarContainer input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .userBarContainer button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    color: #7048e8;
+    text-transform: uppercase;
+  }
+  
+  .userBarContainer button:hover {
+  
+    color: #fff;
+    background-color: #7048e8;
+    cursor: pointer;
+  }
+  
